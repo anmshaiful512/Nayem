@@ -1,0 +1,440 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#me{
+  overflow: hidden;
+  
+  width: 100%;
+  height: 100vh;
+  background-image: url(banner-3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.navbar{
+  width: 90%;
+  margin: auto;
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+.ooo{
+ 
+ color: crimson;
+ font-size: 30px;
+ font-weight: 800;
+ cursor: pointer;
+}
+.navbar,h1{
+  color: #333;
+}
+.navbar,ul,li{
+  list-style: none;
+  display: inline-block;
+  margin: 0px 20px;
+  float: right;
+  margin-top: -10px;
+ 
+}
+.navbar,ul,li,a{
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+li:hover{
+  border: 1px solid green;
+  padding: 4px 5px;
+  background: #009688;
+  color: white;
+  border-radius: 10px;
+}
+li,a:hover{
+  color: white;
+}
+.content{
+ width: 420px;
+  margin-left: 85px;
+  margin-top: 120px;
+  
+}
+
+p{
+  color: #666;
+  margin-top: 5px;
+}
+button{
+  font-size: 20px;
+  padding: 10px 10px;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  background: 2px solid #009688; 
+  background: ;
+  color: #333;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+}
+button:hover{
+  background: crimson;
+  color: #fff;
+}
+#nayem{
+  border: 1px solid #fff;
+  background: #eee;
+  
+}
+.head{
+  font-size: 30px;
+  margin-top: 50px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+.head::before{
+  content: " ";
+  position: absolute;
+  width: 200px;
+  height: 4px;
+  background: #fb5200;
+  left: 390px;
+  bottom: 20px;
+  top: 50px;
+}
+.image{
+  width: 35%;
+  height: 20%;
+  background-size: cover;
+  margin-top: 40px;
+  margin-left: 50px;
+  padding-bottom: 20px;
+}
+.double{
+   display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.name{
+ width: 45%;
+  margin-top: 30px;
+}
+.head2{
+  font-size: 30px;
+  margin-top: 50px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+.head2::before{
+  content: " ";
+  position: absolute;
+  width: 260px;
+  height: 4px;
+  background: #fb5200;
+  left: 365px;
+  bottom: 20px;
+  top: 50px;
+  
+}
+.aaa{
+  overflow: hidden;
+  width: 95%;
+margin-top: 50px;
+margin-left: 30px;
+}
+#sss{
+  
+  font-size: 30px;
+  color: crimson;
+  text-align: center;
+  padding-left: 100px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.bbb{
+  width: 250px; 
+  height: 250px;
+  border: 1px solid #ddd;
+  background: #eee;
+  margin-left: 30px;
+  float: left;
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+.head3{
+  color: #333;
+  font-size: 30px;
+  margin-top: 50px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+.head3::before{
+  content: " ";
+  position: absolute;
+  width: 200px;
+  height: 4px;
+  background: #fb5200;
+  left: 390px;
+  bottom: 20px;
+  top: 50px;
+}
+.title{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+.left{
+  width: 90%;
+  margin-top: 50px;
+}
+.bars{
+  margin-bottom: 15px;
+  margin-left: 150px;
+  
+}
+.info{
+     display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 30px;
+  font-weight: 700;
+}
+.linehtml{
+  height: 7px;
+  width: 100%;
+  background: lightgray;
+  position: relative;
+}
+.linehtml::before{
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  background: crimson;
+  left: 0px;
+  top: 0px;
+  
+  
+}
+.linecss{
+  height: 7px;
+  width: 100%;
+  background: lightgray;
+  position: relative;
+}
+.linecss::before{
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  background: crimson;
+  left: 0px;
+  top: 0px;
+  
+  
+}
+.linejs{
+  height: 7px;
+  width: 100%;
+  background: lightgray;
+  position: relative;
+}
+.linejs::before{
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  background: crimson;
+  left: 0px;
+  top: 0px;
+  
+  
+}
+.linejq{
+  height: 7px;
+  width: 100%;
+  background: lightgray;
+  position: relative;
+}
+.linejq::before{
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  background: crimson;
+  left: 0px;
+  top: 0px;
+  
+  
+}
+.linephp{
+  height: 7px;
+  width: 100%;
+  background: lightgray;
+  position: relative;
+}
+.linephp::before{
+  content: "";
+  position: absolute;
+  width: 65%;
+  height: 100%;
+  background: crimson;
+  left: 0px;
+  top: 0px;
+  
+  
+}
+.linebs{
+  height: 7px;
+  width: 100%;
+  background: lightgray;
+  position: relative;
+}
+.linebs::before{
+  content: "";
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  background: crimson;
+  left: 0px;
+  top: 0px;
+  
+  
+}
+.linemy{
+  height: 7px;
+  width: 100%;
+  background: lightgray;
+  position: relative;
+}
+.linemy::before{
+  content: "";
+  position: absolute;
+  width: 75%;
+  height: 100%;
+  background: crimson;
+  left: 0px;
+  top: 0px;
+}
+#rahi{
+  background: #eee;
+  padding-bottom: 20px;
+}
+.head4{
+  font-size: 30px;
+  margin-top: 50px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+.head4::before{
+  content: " ";
+  position: absolute;
+  width: 250px;
+  height: 4px;
+   background: #fb5200;
+  left: 370px;
+  bottom: 20px;
+  top: 50px;
+} 
+.user{
+ width: 35%;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.jjj{
+  display: flex;
+  flex-wrap: ;
+  text-align: justify;
+  align-items: center;
+  justify-content: ;
+ 
+
+   margin-top: 30px;
+}
+.icon{
+  font-size: 35px;
+  color: crimson;
+}
+.rrr{
+  
+  padding-left: 30px;
+ margin-bottom: 10px;
+}
+.qqq{
+   font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.kkk{
+  font-size: 20px;
+  color: #666;
+}
+
+.form{
+ margin-top: 50px;
+}
+.fff{
+  width: 80%;
+   display: flex;
+  flex-wrap: ;
+  text-align: ;
+  align-items: center;
+  justify-content: space-between;
+}
+.mmm{
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#rohan{
+  background: #eee;
+  padding-top: px;
+  padding-bottom: 20px;
+}
+.vvv{
+    width: 98%;
+   display: flex;
+  flex-wrap: ;
+  text-align: ;
+  align-items: center;
+  justify-content: space-between;
+}
+i{
+    font-size: 30px;
+    color: crimson;
+    margin-left: 10px;
+  
+}
+.xxx,h1{
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  color: #fff;
+}
+.ggg{
+   margin-top: 40px;
+  
+}
+.last{
+  background: #212121;
+  
+}
+.foot{
+  margin-left: 400px;
+  color: #fff;
+  padding-bottom: 10px;
+}
+input{
+  padding: 6px 10px;
+  
+}
